@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="grey">#ff000000</color>
+    <color name="lightgrey">#6d6e6d</color>
+    <color name="lightergrey">#eeeeee</color>
+    <color name="lightyellow">#ffffec</color>
+    <color name="netlistunknowgrey">#BFBFBF</color>
+    <color name="title_bg">#ff78ddd5</color>
+    <color name="login_bg">#ff22c5cc</color>
+    <color name="layout_green_bg">#ffedfbfb</color>
+    <color name="regist_btn_bg">#ffeb6876</color>
+    <color name="reply_listview_bg">#fff5fefb</color>
+    <color name="login_line">#ff8e9aa8</color>
+    <color name="regist_btn">#ff36aeeb</color>
+    <color name="login_text_gray">#ff596f84</color>
+    <color name="edittext_bg">#fff2f5fa</color>
+    <color name="actionbar_split_bg">#ffc8bfe7</color>
+    <color name="main_background">#fffafafa</color>
+    <color name="button_selected">#ff419de4</color>
+    <color name="edit_bian">#ffdce5ee</color>
+    <color name="notice_bg">#fffe828d</color>
+    <color name="tags_bg">#ffffe8be</color>
+    <color name="item_selected">#ff419de4</color>
+    <color name="bottom_tabs_color">#ff0a8197</color>
+    <color name="album_bottom_bg">#ff303134</color>
+</resources>

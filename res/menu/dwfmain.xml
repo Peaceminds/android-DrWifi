@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dr_wifi.DWFMainActivity" >
+    
+    <item
+        android:id="@+id/actionbar_btn_rogue_ap_check"
+        android:icon="@drawable/actionbar_check"
+        android:orderInCategory="98"
+        android:showAsAction="always"
+        android:title="RogueAP检测"
+        />
+    
+    <item 
+        android:id="@+id/actionbar_btn_ppchecker"
+        android:icon="@drawable/actionbar_heart"
+        android:orderInCategory="99"
+        android:showAsAction="always"
+        android:title="Pingpong检测"
+        />
+    
+    <item 
+        android:id="@+id/actionbar_btn_settings"
+        android:icon="@drawable/actionbar_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="设置"
+        />
+
+</menu>

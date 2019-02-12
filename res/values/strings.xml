@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dr_WiFi</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_activity_main_tv01">当前状态</string>
+    <string name="str_activity_main_tv02">网络体检</string>
+    <string name="str_activity_main_tv03">资源点评</string>
+    <string name="str_layout_forecast_tv01">为当前WiFi网络体验打分</string>
+    <string name="str_layout_forecast_tv02">不吐槽一下吗少年？</string>
+    <string name="str_layout_forecast_tv03">用户评价与AP负载走势图</string>
+    <string name="str_layout_forecast_btn01">提交打分吐槽</string>
+    <string name="str_layout_forecast_btn02">刷新评价信息</string>
+    <string name="str_layout_forecast_hint01">亲的点评</string>
+    <string name="str_layout_inscheck_tv01">请点击开始按钮来体检~</string>
+    <string name="str_layout_inscheck_tv02">准备好就请开始吧</string>
+    <string name="str_layout_inscheck_btn01">开 始</string>
+    <string name="str_layout_inscheck_btn02">停 止</string>
+    <string name="str_layout_settings_btn01">清空程序缓存</string>
+    <string name="str_layout_settings_btn02">翻看使用说明</string>
+    <string name="str_layout_settings_btn03">检查有无更新</string>
+    <string name="str_layout_settings_btn04">外网Ping地址设置</string>
+    <string name="str_layout_settings_btn05">吐槽各种不爽</string>
+    <string name="str_layout_settings_pingdest_tv01">您想Pind的外网网关（IP或域名）</string>
+    <string name="str_layout_settings_pingdest_hint01">IP或域名</string>
+    <string name="str_layout_settings_manual_h10">什么是Dr.WiFi</string>
+    <string name="str_layout_settings_manual_c11">Dr.WiFi是清华大学无线与移动网络实验室开发的一款校园网诊断工具。它集成了恶意AP（Rogue AP）检测、网络自检报告、用户体验评价与故障报告等功能。它的主要是目的是为老师和同学们提供一个友好而的无线网络检测工具，同时为校园网网管提供可供参考的数据，以便为师生们提供更优质的网络服务。软件新近诞生上线，还需要大家多多关心与批评喔</string>
+    <string name="str_layout_settings_manual_h20">【当前状态】选项卡</string>
+    <string name="str_layout_settings_manual_c21">这个选项卡里，为大家展示了手机当前关联AP及联网状态信息，点击刷新按钮可以刷新状态显示，不过用点得太过频繁哦~</string>
+    <string name="str_layout_settings_manual_c22">另外，打开Dr_WiFi程序后，App会自动与校园网验证关联AP的信息，以鉴定其真伪。这点在本选项卡列表的最后一行有显示。打开App后，请不要杀掉本App，验证结果将于2~3分钟之后向您推送。当然，信息都是走的WiFi，而且流量小到没朋友，更不会上传您的任！何！隐！私！一碗泡面的功夫，验证WiFi真伪。这酸爽，就是这个味儿！</string>
+    <string name="str_layout_settings_manual_h30">【网络体检】选项卡</string>
+    <string name="str_layout_settings_manual_c31">这个选项卡里，您可以点击开始检查按钮来检测无线校园网的情况和手机相关状态，检查完毕后您可以滑动检查报告来了解状态信息。您可以随时点击终止按钮来停止检测，检测被人为终止后，需要再次开始检测才能查看检测报告。</string>
+    <string name="str_layout_settings_manual_h40">【资源点评】选项卡</string>
+    <string name="str_layout_settings_manual_c41">这个选项卡里，您可以像餐饮点评App那样给您当前AP的网络体验打分，还可以查看到其他用户对此AP的打分。需要提醒您的是，网络资源也是一种呈现零和关系的资源，AP的表现会随着用户数量、用户应用的变化喔。所以请不要吝惜地给出您的评价吧！</string>
+    <string name="str_layout_settings_manual_c42">您的评价不仅仅是我们提升的动力，更是网络故障查证的快捷手段，所以当您有问题时，希望您能对问题进行描述并将其告知网管人员——您需要做的只是在本页面中填写好您的描述，点击按钮！就这么简单~</string>
+    <string name="str_layout_settings_manual_h50">特别声明</string>
+    <string name="str_layout_settings_manual_c51">为了确保网管数据和体检信息的有效，我们将从您手机中上传一些和无线网络检测有关的一些信息。但是请您放心，我们绝不会收集与您个人有关的任何信息与数据，所有数据都是匿名而安全的。且文件量小到可以忽略，不会浪费您的校园网流量，也不会对您的隐私产生影响。</string>
+    <string name="str_layout_settings_manual_c52">\n 感谢您长期以来对清华校园网的支持！\n祝您用网愉快：）</string>
+    <string name="str_layout_ppcounter_btn_reset">重置计数</string>
+    <string name="str_layout_ppcounter_btn_display">读取计数</string>
+    <string name="str_layout_ppcounter_textView1">00</string>
+    <string name="str_layout_default_null"></string>
+    <string name="title_activity_view_activity_ppcounter">ViewActivityPPCounter</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

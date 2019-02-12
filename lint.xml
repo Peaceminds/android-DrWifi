@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="SdCardPath">
+        <ignore path="src/com/thu/wlab/dr_wifi/DWFControlDataCleaner.java" />
+    </issue>
+    <issue id="TrulyRandom">
+        <ignore path="src/com/thu/wlab/dwf/ControlHttpsUtil.java" />
+    </issue>
+</lint>

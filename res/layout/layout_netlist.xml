@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/netlist_layout_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/netlistunknowgrey"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/netlist_statusimage"
+            android:layout_width="fill_parent"
+            android:layout_height="83dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/main_status_unknow" 
+            />
+	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/netlist_refresh_btn"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="246dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/main_status_btn_refresh"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/netlist_layout_background"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/netlist_linklist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+            android:background="@color/lightergrey">
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+<!--     <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+    
+    <TextView
+            android:id="@+id/netlist_tctv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="20dp"
+            android:text="吐槽请戳这里"
+            android:width="150dp" />
+    </RelativeLayout> -->

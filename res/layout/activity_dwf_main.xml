@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <!-- 固定按钮部分 -->
+    
+    <LinearLayout  
+        android:layout_width="match_parent"  
+        android:layout_height="52dp"  
+        android:background="@color/lightgrey" 
+        android:baselineAligned="false" >  
+        
+        <!-- 连接状态 -->
+        <RelativeLayout
+            android:id="@+id/netlist_btnlayout"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/netlist_btntext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/str_activity_main_tv01"
+                android:textColor="@color/white" />
+            
+        </RelativeLayout>
+
+		<!-- 网速测试 -->
+		<RelativeLayout
+            android:id="@+id/inscheck_btnlayout"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/inscheck_btntext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/str_activity_main_tv02"
+                android:textColor="@color/lightgrey" />
+            
+        </RelativeLayout>
+
+		<!-- 网络天气 -->
+		<RelativeLayout
+            android:id="@+id/forecast_btnlayout"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/forecast_btntext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/str_activity_main_tv03"
+                android:textColor="@color/lightgrey" />
+            
+        </RelativeLayout>
+        
+	</LinearLayout> 
+         
+    <!-- 替换部分 -->
+    
+    <FrameLayout  
+        android:id="@+id/content"  
+        android:layout_width="match_parent"  
+        android:layout_height="0dp"  
+        android:layout_weight="1" >  
+    </FrameLayout>
+         
+</LinearLayout>

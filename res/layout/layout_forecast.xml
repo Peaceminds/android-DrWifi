@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/forecast_layout_linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@color/lightyellow"
+        android:orientation="vertical" >
+        
+    <TextView
+        android:id="@+id/forecast_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="@string/str_layout_forecast_tv01" />
+
+    <RatingBar
+        android:id="@+id/forecast_ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="13dp"
+        />
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/forecast_layout_RelativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/forecast_layout_linearLayout1"
+        android:background="@color/white"
+        android:paddingBottom="13dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/forecast_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/str_layout_forecast_tv02" />
+
+        <EditText
+            android:id="@+id/forecast_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/forecast_textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:ems="10"
+            android:maxLines="5"
+            android:textSize="13sp"
+            android:hint="@string/str_layout_forecast_hint01"
+            android:gravity="center"/>
+        
+      </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/forecast_layout_RelativeLayout3"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forecast_layout_RelativeLayout2"
+        android:background="@color/white"
+        android:paddingBottom="13dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+        
+        <Button
+            android:id="@+id/forecast_button"
+            android:layout_width="108dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="9dp"
+            android:background="@color/lightergrey"
+            android:text="@string/str_layout_forecast_btn01"
+            android:textColor="@color/login_text_gray"
+            android:textSize="13sp" />
+        
+        <Button
+            android:id="@+id/forecast_button_see_what_they_say"
+            android:layout_width="108dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="9dp"
+            android:background="@color/lightergrey"
+            android:text="@string/str_layout_forecast_btn02"
+            android:textColor="@color/login_text_gray"
+            android:textSize="13sp" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/forecast_layout_RelativeLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/forecast_layout_RelativeLayout3"
+        android:background="@color/lightyellow"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/forecast_textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/str_layout_forecast_tv03"
+            android:textSize="13sp" />
+        
+        
+        <LinearLayout
+            android:id="@+id/forecast_chart"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/forecast_textView3"
+        	android:layout_centerHorizontal="true"
+        	android:layout_centerInParent="true"
+        	android:background="@color/white"
+        	android:orientation="vertical">
+            
+        </LinearLayout>
+        
+    </RelativeLayout>
+    
+</RelativeLayout>
